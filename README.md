@@ -1,5 +1,18 @@
 # ajax分页插件
 
+##接口说明:
+###page_event(callback):
+点击事件回调函数。
+回调参数:
+param1:每页数
+param2:起始数
+
+###page_show():
+传入参数:
+total:总数目
+per_page:每页数
+cur_page:当前页数
+
 ## HTML
 ```html
     <ul class="pagination" id="idPage"> </ul>
@@ -29,4 +42,3 @@
             $("#idPage").page_event({
                 "click":getVols
             });
-            
