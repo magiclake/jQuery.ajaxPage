@@ -1,7 +1,13 @@
 # ajax分页插件
 
-'''
-            function getVols(num_per_page,num_start){
+## HTML
+```html
+    <ul class="pagination" id="idPage"> </ul>
+```
+## JS代码
+
+```javascript
+    function getVols(num_per_page,num_start){
                 ajax_getVols({
                     num: num_per_page||5,
                     start_num: num_start||0,
@@ -19,9 +25,7 @@
                     }
                 });
             }
-
             getVols();
-
             $("#idPage").page_event({
                 "click":getVols
             });
