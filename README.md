@@ -9,9 +9,9 @@ param2:起始数
 
 ###page_show():
 传入参数:
-total:总数目
-per_page:每页数
-cur_page:当前页数
+- total:总数目
+- per_page:每页数
+- cur_page:当前页数
 
 ## HTML
 ```html
