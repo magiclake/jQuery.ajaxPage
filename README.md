@@ -29,4 +29,4 @@
             $("#idPage").page_event({
                 "click":getVols
             });
-'''
+            
